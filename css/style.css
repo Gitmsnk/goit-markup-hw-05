@@ -425,19 +425,25 @@ footer>p {
 .footer-media a:focus{
     background-color: #31d0aa;
 }
+.footer-form-container {
+    padding-left: 100px;
+}
 
-.form-p{
+.footer-form-text {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+
+.footer-mail-form {
     display: flex;
     gap: 24px;
-
 }
-.from-input{
+
+.footer-mail-input {
     width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -449,12 +455,13 @@ footer>p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
-
 }
-.from-input::placeholder{
+
+.footer-mail-input::placeholder {
     color: #ffffff;
 }
-.form-button{
+
+.footer-mail-button {
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -466,18 +473,14 @@ footer>p {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #4D5AE5;
+    cursor: pointer;
+    background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
+}
 
-}
-.form-button:hover,
-.form-button{
-    cursor: pointer;
-}
-.form-svg{
+.footer-mail-svg {
     margin-left: 16px;
-
 }
 li{
     list-style-type: none;
